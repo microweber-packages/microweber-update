@@ -7,43 +7,7 @@ parameters:
 			path: src/Providers/UpdateMigratorServiceProvider.php
 
 		-
-			message: '#^Class MicroweberPackages\\Module\\Models\\Module not found\.$#'
-			identifier: class.notFound
-			count: 2
-			path: src/database/migrations/2024_05_10_000001_migrate_morph_class_standard.php
-
-		-
-			message: '#^Class Modules\\Category\\Models\\Category not found\.$#'
-			identifier: class.notFound
-			count: 2
-			path: src/database/migrations/2024_05_10_000001_migrate_morph_class_standard.php
-
-		-
-			message: '#^Class Modules\\Content\\Models\\Content not found\.$#'
-			identifier: class.notFound
-			count: 2
-			path: src/database/migrations/2024_05_10_000001_migrate_morph_class_standard.php
-
-		-
 			message: '#^Variable \$getTableData in empty\(\) always exists and is not falsy\.$#'
 			identifier: empty.variable
 			count: 2
 			path: src/database/migrations/2024_05_10_000001_migrate_morph_class_standard.php
-
-		-
-			message: '#^Class Modules\\Content\\Models\\Content not found\.$#'
-			identifier: class.notFound
-			count: 1
-			path: src/database/migrations/2024_05_10_000001_migrate_old_version_213.php
-
-		-
-			message: '#^Function morph_name not found\.$#'
-			identifier: function.notFound
-			count: 1
-			path: src/database/migrations/2024_05_10_000001_migrate_old_version_213.php
-
-		-
-			message: '#^Function str_slug not found\.$#'
-			identifier: function.notFound
-			count: 2
-			path: src/database/migrations/2024_05_10_000001_migrate_old_version_213.php
